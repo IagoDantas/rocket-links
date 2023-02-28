@@ -59,11 +59,10 @@ h1 {
   cursor: pointer;
 }
 .username::before {
-  content: "@";
+  content: "💻";
   display: inline-block;
-  width: 0.75em;
+  width: 1.75em;
   color: #d6336c;
-
   opacity: 0;
   transition: opacity 200ms;
 }
